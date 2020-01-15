@@ -1,0 +1,379 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Definiciones del área de TI</title>
+  <link rel="stylesheet" type="text/css" href="Estilo.css">
+
+
+</head>
+
+<body>
+
+  <div class="Cabezote">
+    <img style="vertical-align:middle" src="Imagenes/LogoTQ.png" alt="">
+    <a href="">Área de TI</a>
+  </div>
+
+  <h1>Definiciones del área</h1>
+
+  <!-- FILTROS -->
+
+  <div class="filtrosP">
+
+    <h5>Filtrar por:</h5>
+
+    <!-- BOTONES PRIMER FILTRO -->
+
+    <div id="myBtnContainer">
+
+      <button class="btn active" onclick="primerFiltro('todo')" style="background-image:url('Imagenes/Todo.png')">
+        Mostrar todo</button>
+      <button class="btn" onclick="primerFiltro('calidad')"
+        style="background-image:url('Imagenes/Calidad.png')">Calidad</button>
+      <button class="btn" onclick="primerFiltro('documentacion')"
+        style="background-image:url('Imagenes/Documentacion.png')"> Documentación</button>
+      <button class="btn" style="background-image:url('Imagenes/Mejoras.png')" onclick="primerFiltro('mejoras')">
+        Mejoras</button>
+      <button class="btn" style="background-image:url('Imagenes/Planeacion.png')"
+        onclick="primerFiltro('planeacion')"> Planeación</button>
+      <button class="btn" style="background-image:url('Imagenes/Coordinacion.png')"
+        onclick="primerFiltro('coordinacion')"> Coordinación</button>
+      <button class="btn" style="background-image:url('Imagenes/Viabilidad.png')" onclick="primerFiltro('viabilidad')">
+        Viabilidad</button>
+      <button class="btn" style="background-image:url('Imagenes/Presupuesto.png')"
+        onclick="primerFiltro('presupuesto')">Presupuesto</button>
+      <button class="btn" style="background-image:url('Imagenes/Soporte.png')"
+        onclick="primerFiltro('soporte')">Soporte</button>
+
+    </div>
+
+  </div>
+
+  <!-- COMIENZAN LAS DEFINICIONES -->
+
+  <div id="calidad">
+
+    <!-- SUBTITULO -->
+
+    <h2 style="padding-bottom: 40px;">Calidad</h2>
+
+    <div class="lineamientoCont">
+      <p class="lineamientoIzq">Calidad</p>
+      <p class="lineamientoDer">Cuando haya disponibilidad de tester sin asignar, el Líder de Calidad debe planear
+        actividades de proceso (automatizaciones,etc)</p>
+    </div>
+
+  </div>
+
+  <div id="documentacion">
+
+    <!-- SUBTITULO -->
+
+    <h2 style="padding-bottom: 40px;">Documentación</h2>
+
+    <div class="lineamientoCont">
+      <p class="lineamientoIzq">Documentación</p>
+      <p class="lineamientoDer">Todos los servicios en TFS deben contener una épica que se llame doc. Técnica donde se
+        cargarán los documentos transversales de la solución (ejemplo: arquitecturas, etc.)</p>
+    </div>
+
+    <!--  -->
+
+    <div class="lineamientoCont">
+      <p class="lineamientoIzq">Documentación</p>
+      <p class="lineamientoDer">La documentación del proyecto (viabilidades, presupuestos, etc.) deben quedar cargados
+        en
+        el sitio del proyecto en Project</p>
+    </div>
+
+    <!--  -->
+
+    <div class="lineamientoCont">
+      <p class="lineamientoIzq">Documentación</p>
+      <p class="lineamientoDer">Los diagramas de procesos, contexto, arquitectura, etc. deben hacerse en Visio, para eso
+        el área cuenta con licencias flotantes para esto</p>
+    </div>
+
+  </div>
+
+  <div id="planeacion">
+
+    <!-- SUBTITULO -->
+
+    <h2 style="padding-bottom: 40px;">Planeación</h2>
+
+    <div class="lineamientoCont">
+      <p class="lineamientoIzq">Planeación</p>
+      <p class="lineamientoDer">El área tiene como meta finalizar 96 proyectos y 240 mejoras por año, es decir, 8
+        proyectos y 20 mejoras mes</p>
+    </div>
+
+    <!--  -->
+
+    <div class="lineamientoCont">
+      <p class="lineamientoIzq">Planeación</p>
+      <p class="lineamientoDer">Para la conformación de células y planeación de los proyectos los Líderes de Solución
+        deben tener en cuenta los siguientes criterios:
+        <br> a. Capacidad de administración
+        <br> b. Asegurar el conocimiento técnico interno
+        <br> c. Costo</p>
+    </div>
+
+    <!--  -->
+
+    <div class="lineamientoCont">
+      <p class="lineamientoIzq">Planeación</p>
+      <p class="lineamientoDer"> Si un Ing. De Soluciones tiene las habilidades para ejecutar cualquier rol, el Líder de
+        Solución deberá evaluar cuál es la mejor estrategía para los proyectos en los que participará este Ing., es
+        decir,
+        debe analizar si es más eficiente que cumpla el rol de Análisis y Desarollo o solo uno de los dos</p>
+    </div>
+
+    <!--  -->
+
+    <div class="lineamientoCont">
+      <p class="lineamientoIzq">Planeación</p>
+      <p class="lineamientoDer">Los Líderes de Solución deben evitar que las Células trabajen en mejoras y proyectos al
+        mismo tiempo
+    </div>
+
+    <!--  -->
+
+    <div class="lineamientoCont">
+      <p class="lineamientoIzq">Planeación</p>
+      <p class="lineamientoDer"> En general las Células deben ejecutar 2 proyectos en paralelo
+    </div>
+
+    <!--  -->
+
+    <div class="lineamientoCont">
+      <p class="lineamientoIzq">Planeación</p>
+      <p class="lineamientoDer">Las Células que estén asignadas 100% a mejoras deben cerrar mínimo 4 por mes
+    </div>
+
+    <!--  -->
+
+    <div class="lineamientoCont">
+      <p class="lineamientoIzq">Planeación</p>
+      <p class="lineamientoDer">Los Líderes de Célula deben asegurar su planeación mínimo a 4 semanas
+    </div>
+
+  </div>
+
+  <div id="coordinacion">
+
+    <!-- SUBTITULO -->
+
+    <h2 style="padding-bottom: 40px;">Coordinación</h2>
+
+    <div class="lineamientoCont">
+      <p class="lineamientoIzq">Coordinación</p>
+      <p class="lineamientoDer">Las Coordinadoras de Proyectos deben asegurar las metas de mejoras y proyectos
+    </div>
+
+
+  </div>
+
+  <div id="viabilidad">
+
+
+    <!-- SUBTITULO -->
+
+    <h2 style="padding-bottom: 40px;">Viabilidad</h2>
+
+    <div class="lineamientoCont">
+      <p class="lineamientoIzq">Viabilidad</p>
+      <p class="lineamientoDer">La viabilidad es responsabilidad de la dupla Líder de Solución – Arquitecto, esto debido
+        a
+        qué definir la estrategia correcta para ejecutar un proyecto requiere de manera indispensable la alineación del
+        conocimiento de negocio (Líder S.) y de tecnología (Arquitecto)
+    </div>
+
+    <!--  -->
+
+    <div class="lineamientoCont">
+      <p class="lineamientoIzq">Viabilidad</p>
+      <p class="lineamientoDer">La viabilidad de los proyectos debe construirse en máxmo 3 semanas
+    </div>
+
+    <!--  -->
+
+    <div class="lineamientoCont">
+      <p class="lineamientoIzq">Viabilidad</p>
+      <p class="lineamientoDer">Las reuniones de presentación de viabilidades al equipo de TI se realizarán los
+        miércoles.
+        El Líder de Solución (Líder de Célula cuando sea este quien ejecute la viabilidad) debe solicitar a la
+        Coordinadora de TI que su viabilidad sea agendada
+    </div>
+
+    <!--  -->
+
+    <div class="lineamientoCont">
+      <p class="lineamientoIzq">Viabilidad</p>
+      <p class="lineamientoDer">Una viabilidad es el proceso a través del cual se realiza un levantamiento y
+        entendimiento
+        de la necesidad del usuario para:
+        <br> * Definir el alcance de la solicitud
+        <br> * Analizar y plantear la forma adecuada de abordar el proyecto
+        <br> * Evaluar y seleccionar la mejor alternativa de solución
+        <br> * Definir la estrategia de ejecución del proyecto
+        <br> * Planear el tiempo y costo de la implementación de solución
+        <br> * Reservar el recurso de TI
+    </div>
+
+    <!--  -->
+
+    <div class="lineamientoCont">
+      <p class="lineamientoIzq">Viabilidad</p>
+      <p class="lineamientoDer">Cuando el Líder de Célula realice la viabilidad debe cumplir las responsabilidades que
+        ejecutaría el Líder de Solución. En este caso el Líder de Solución validará el resultado final
+    </div>
+
+    <!--  -->
+
+    <div class="lineamientoCont">
+      <p class="lineamientoIzq">Viabilidad</p>
+      <p class="lineamientoDer">La reunión con TI puede ser en mas de una oportunidad, lo importante es asegurar el
+        entendimiento de cada uno de los roles involucrados
+    </div>
+
+  </div>
+
+  <div id="presupuesto">
+
+    <!-- SUBTITULO -->
+
+    <h2 style="padding-bottom: 40px;">Presupuesto</h2>
+
+    <div class="lineamientoCont">
+      <p class="lineamientoIzq">Presupuesto</p>
+      <p class="lineamientoDer">El presupuesto asignado a la gestión de proyectos corresponde solo a horas/hombre
+    </div>
+
+    <!--  -->
+
+    <div class="lineamientoCont">
+      <p class="lineamientoIzq">Presupuesto</p>
+      <p class="lineamientoDer">Cuando se requiera una adición presupuestal para la inversión del proyecto o para el
+        mantenimiento de la solución el usuario debe solicitar la aprobación del presupuesto ante la Vicepresidencia
+        Financiera
+    </div>
+
+    <!--  -->
+
+    <div class="lineamientoCont">
+      <p class="lineamientoIzq">Presupuesto</p>
+      <p class="lineamientoDer">Es responsabilidad del Líder de Célula asegurar el cumplimiento del presupuesto del
+        proyecto/mejora, así como también la inclusión de la cotización (a través de la Coordinadora de TI) en el
+        sistema
+        de compras y pagos antes de su finalización
+    </div>
+
+  </div>
+
+  <div id="soporte">
+
+    <!-- SUBTITULO -->
+
+    <h2 style="padding-bottom: 40px;">Soporte</h2>
+
+    <div class="lineamientoCont">
+      <p class="lineamientoIzq">Soporte</p>
+      <p class="lineamientoDer">Si algunos de los siguientes criterios se cumple significa que se debe hacer una mejora
+        estructural en el Software o infraestructura y debe ser validada con los Arquitectos, Infraestructura y el Líder
+        de la Solución para medir el impacto y definir el plan de acción, por lo tanto, no debería ser asumida por el
+        equipo de soporte:
+        La solución al problema implica:
+        <br> * ¿Modificar la estructura de datos?
+        <br> * ¿Modificar o crear programas/opciones de menú?
+        <br> * ¿Modificar la arquitectura de software o hardware?
+        <br> * ¿Modificar el bus de integración?
+        <br> *¿Modificar el servicio de ETL (DataStage)?
+        <br> *¿Aplicar actualización de firmware o parches?
+        <br> *¿Cambiar parámetros del sistema, aplicación o base de datos?
+        <br> *¿Modificar la asignación de recursos a los servidores de los sistemas de información?
+    </div>
+
+  </div>
+
+  <div id="mejoras">
+
+    <!-- SUBTITULO -->
+
+    <h2 style="padding-bottom: 40px;">Mejoras</h2>
+
+    <div class="lineamientoCont">
+      <p class="lineamientoIzq">Mejoras</p>
+      <p class="lineamientoDer">La suma de todos los tiempos del Líder de Célula en una mejora (fase de análisis, diseño
+        y
+        pruebas) debe sumar máximo 40 horas</p>
+    </div>
+
+    <!--  -->
+
+    <div class="lineamientoCont">
+      <p class="lineamientoIzq">Mejoras</p>
+      <p class="lineamientoDer">El Líder de Célula es responsable de ejecutar las pruebas de las mejoras. En caso de
+        requerir un tester se evaluará la situación con la Dirección</p>
+    </div>
+
+    <!--  -->
+
+    <div class="lineamientoCont">
+      <p class="lineamientoIzq">Mejoras</p>
+      <p class="lineamientoDer"> <strong>Criterios de priorizar las mejoras:
+          <br>
+          <br>
+          Prioridad muy alta:</strong>
+        <br>
+        <br> 1. Requerimientos que generan ventaja competitiva
+        <br> 2. Requerimientos de presidencia
+        <br> 3. Requerimientos legales que NO tienen un camino alterno para su cumplimiento
+        <br> 4. Requerimientos de EMP – CTV
+        <br> 5. Impacta un proceso corporativo
+        <br> 6. Apunta a objetivos estratégicos del negocio (KPIs del negocio)
+        <br> 7. Impacta informes de UN
+        <br>
+        <br>
+        <strong>Prioridad alta:</strong>
+        <br>
+        <br>1. Requerimientos legales
+        <br>2. Requerimientos de seguridad / auditorías
+        <br>3. Requerimientos para mejorar procesos críticos del área
+        <br>4. Requerimientos que  mejoran nexos con otras áreas cuyo proceso es crítico para el área que recibe
+        <br>5. Impacta sobre un # importante de casos de soporte
+        <br>6. Impacta o mejora de procesos de cierre
+        <br>7. Impacta procesos de uso frecuente y con muchos usuarios
+        <br>8. Impacta en ahorro de tiempo y oportunidad de respuesta frente al consumidor
+        <br>9. Optimiza funcionalidades de uso frecuente por masivos (consumidor o usuario backTQ) UX
+        <br>
+        <br>
+        <strong>Prioridad media:</strong>
+        <br>
+        <br>1. Requerimientos para mejorar procesos no críticos (procesos de uso medio y con algunos usuarios)
+        <br>2. Optimiza procesos operativos
+        <br>3. Es un requerimiento de forma que no impacta informes de cierre
+        <br>4. Soluciona casos de soporte que se presenten en mediana cantidad
+        <br>
+        <br>
+        <strong>Prioridad baja:</strong>
+        <br>1. Requerimientos que benefician a una sola persona y que no son procesos críticos del área
+        <br>2. justa un proceso/informe de poco uso y bajo número de usuarios operativos
+        <br>3. Mejoras visuales sin aporte importante a la experiencia de usuario.
+    </div>
+
+  </div>
+
+  <!--  <div class="lineamientoCont">
+    <p class="lineamientoIzq"> <strong class="etiqueta">Calidad</strong> <br><br> Calidad</p>
+    <p class="lineamientoDer">Cuando haya disponibilidad de tester sin asignar, el Líder de Calidad debe planear actividades de proceso (automatizaciones,etc)</p>
+  </div> -->
+
+  <script src="Interaccion.js"></script>
+
+</body>
+
+</html>
